@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+atlassian-python-api = "==3.41.11"
+certifi = "==2023.7.22"
+charset-normalizer = "==3.2.0"
+idna = "==3.4"
+multi-key-dict = "==2.0.3"
+pbr = "==5.11.1"
+python-dotenv = "==1.0.0"
+python-jenkins = "==1.8.1"
+requests = "==2.31.0"
+six = "==1.16.0"
+urllib3 = "==2.0.4"
+progress = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
+[windows]
+win11toast = "*"
